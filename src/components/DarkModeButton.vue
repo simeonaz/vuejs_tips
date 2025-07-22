@@ -13,8 +13,7 @@ const toggleDark = useToggle(isDark);
     class="cursor-pointer flex-shrink-0 rounded-md gap-x-1.5 p-1.5 inline-flex items-center"
   >
     <!-- Feel free to customize these icons  -->
-    <span v-if="isDark">☀️</span>
-    <span v-else>🌙</span>
+    {{ isDark ? "☀️" : "🌙" }}
   </button>
 </template>
 
