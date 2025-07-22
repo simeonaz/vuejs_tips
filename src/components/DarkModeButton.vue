@@ -1,3 +1,4 @@
+<!-- 💡 Toggle Dark Mode in Vue 3 using @vueuse/core -->
 <script setup>
 import { useDark, useToggle } from "@vueuse/core";
 
@@ -16,3 +17,5 @@ const toggleDark = useToggle(isDark);
     <span v-else>🌙</span>
   </button>
 </template>
+
+<!-- Component: DarkModeButton.vue By Siméon Azogbonon -->
