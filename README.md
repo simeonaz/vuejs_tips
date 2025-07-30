@@ -1,6 +1,6 @@
 # Vue.js Tips
 
-A collection of tips, tricks, and best practices for efficient Vue.js development.
+A collection of tips, tricks, and best practices for efficient Vue.js 3 development.
 
 ## About
 
