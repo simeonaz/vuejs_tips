@@ -26,7 +26,7 @@ export default defineConfig({
         name: 'Vue.js Tips',
         short_name: 'Vue Tips',
         description: 'Vue.js Tips By Siméon Azogbonon',
-        theme_color: '#4f46e5',
+        theme_color: '#111827',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
@@ -61,10 +61,7 @@ In `index.html`, add the specific meta tags:
 ```
 
 ### 4. Prepare Icons
-Download your main logo:
-```bash
-curl -o public/vue-logo.png https://vuejs.org/images/logo.png
-```
+Add your main logo into `public` folder.
 
 ### 5. Build and Test
 ```bash
