@@ -11,6 +11,12 @@ This repository was created and is maintained by **Siméon Azogbonon** to share 
 Please refer to the branches of this repository.  
 Each branch is named according to the topic or tip it provides.
 
+## Tips List
+
+### 🎨 User Interface
+- **[feature/dark-mode-vueuse](https://github.com/simeonaz/vuejs_tips/tree/feature/dark-mode-vueuse)** : Implementation of dark mode using VueUse
+- **[feature/detect-offline-alert](https://github.com/simeonaz/vuejs_tips/tree/feature/detect-offline-alert)** : Detect online/offline status and trigger alert notifications accordingly
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/)
