@@ -17,6 +17,9 @@ Each branch is named according to the topic or tip it provides.
 - **[feature/dark-mode-vueuse](https://github.com/simeonaz/vuejs_tips/tree/feature/dark-mode-vueuse)**: Implementation of dark mode using VueUse
 - **[feature/detect-offline-alert](https://github.com/simeonaz/vuejs_tips/tree/feature/detect-offline-alert)**: Detect online/offline status and trigger alert notifications accordingly
 
+### 📱 PWA
+- **[feature/pwa-setup](https://github.com/simeonaz/vuejs_tips/tree/feature/pwa-setup)** - PWA Config with Vue
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/)
