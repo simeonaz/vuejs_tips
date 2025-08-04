@@ -10,14 +10,25 @@ const { isOnline } = useOnlineStatus();
   <div class="max-w-screen-xl mx-auto relative">
     <AppHeader />
     <main class="min-h-svh flex items-center justify-center">
-      <div class="text-center text-xl font-bold tracking-tight">
-        Vue.js Tips by
+      <div class="flex flex-col">
+        <div class="text-center text-xl font-bold tracking-tight">
+          Vue.js Tips by
+          <a
+            href="http://simeonaz.netlify.app"
+            target="_blank"
+            class="hover:underline"
+            >Siméon Azogbonon</a
+          >
+        </div>
         <a
-          href="http://simeonaz.netlify.app"
+          href="https://github.com/simeonaz/vuejs_tips"
           target="_blank"
-          class="hover:underline"
-          >Siméon Azogbonon</a
+          rel="noopener"
+          aria-label="GitHub Repository (opens in new tab)"
+          class="mt-4 flex items-center justify-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-300"
         >
+          ⭐ View on GitHub
+        </a>
       </div>
     </main>
   </div>
