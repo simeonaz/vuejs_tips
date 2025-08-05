@@ -61,7 +61,11 @@ In `index.html`, add the specific meta tags:
 ```
 
 ### 4. Prepare Icons
-Add your main logo into `public` folder.
+Add your main logo into `public` folder then run
+
+```bash
+pnpm generate-pwa-assets
+```
 
 ### 5. Build and Test
 ```bash
