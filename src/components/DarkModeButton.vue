@@ -10,7 +10,7 @@ const toggleDark = useToggle(isDark);
   <button
     @click="toggleDark()"
     type="button"
-    class="cursor-pointer flex-shrink-0 rounded-md gap-x-1.5 p-1.5 inline-flex items-center"
+    class="cursor-pointer flex-shrink-0 rounded-md inline-flex items-center"
   >
     <!-- Feel free to customize these icons  -->
     {{ isDark ? "☀️" : "🌙" }}

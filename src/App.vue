@@ -4,6 +4,10 @@ import { useOnlineStatus } from "./composables/useOnlineStatus";
 
 const { isOnline } = useOnlineStatus();
 // You can use the isOnline variable to show a message or perform actions when user is online or offline
+
+// import the i18n instance
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <template>
@@ -27,7 +31,7 @@ const { isOnline } = useOnlineStatus();
           aria-label="GitHub Repository (opens in new tab)"
           class="mt-4 flex items-center justify-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-300"
         >
-          ⭐ View on GitHub
+          ⭐ {{ t("view_on_github") }}
         </a>
       </div>
     </main>
